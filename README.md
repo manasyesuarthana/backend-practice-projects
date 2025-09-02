@@ -2,7 +2,7 @@
 
 Welcome to my backend practice repository! This collection of projects serves as a log of my journey into backend development. The main goal is to tackle various challenges to learn and solidify my understanding of different backend concepts, tools, and languages.
 
-Most of the project ideas are sourced from the excellent [Backend Developer roadmap on roadmap.sh](https://roadmap.sh/backend).
+Most of the project ideas are sourced from the excellent [Backend Developer roadmap on roadmap.sh](https://roadmap.sh/backend/projects).
 
 ## Completed Projects
 
@@ -10,10 +10,10 @@ Here are the projects I have completed so far. Each project is contained within 
 
 | Project Name            | Description                                                                          | Tech Stack | Project Requirement                                                          |
 | :---------------------- | :----------------------------------------------------------------------------------- | :--------: | :-----------------------------------------------------------------------: |
-| `task_tracker/`         | A command-line or API-based application to manage tasks (create, update, delete, list). |   Python   | [View Project](https://roadmap.sh/projects/task-tracker)                 |
+| `task_tracker/`         | A command-line application to manage tasks (create, update, delete, list) and store them into a JSON file. |   Python   | [View Project](https://roadmap.sh/projects/task-tracker)                 |
 | `github_user_activity/` | A tool that fetches and displays recent activity for a given GitHub user.            |   Python   | [View Project](https://roadmap.sh/projects/github-user-activity)         |
-| `expense_tracker/`      | An application to track income and expenses, categorize them, and view summaries.    |   Python   | [View Project](https://roadmap.sh/projects/expense-tracker)              |
-| `number_guessing_game/` | A simple CLI game where the user has to guess a randomly generated number.           |   Python   | [View Project](https://roadmap.sh/projects/number-guessing-game)         |
+| `expense_tracker/`      | An python CLI application to track income and expenses, categorize them, and view summaries. All user-inputted data are stored into a CSV file.    |   Python   | [View Project](https://roadmap.sh/projects/expense-tracker)              |
+| `number_guessing_game/` | A simple CTF-style CLI game where the user has to guess a randomly generated number.           |   Python   | [View Project](https://roadmap.sh/projects/number-guessing-game)         |
 | ...                     | *More to come!* |     -      | -                                                                         |
 
 ## Tech Stack
@@ -26,8 +26,8 @@ My focus is on building a strong foundation in backend technologies. While the i
 * **Planning to Learn/Use:**
     * ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
     * ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
-    * ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
     * ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+    * And more to come...
 
 ## How to Run
 
