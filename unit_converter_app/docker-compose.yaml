@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_ENV=development
+    volumes:
+      - ./backend:/app
+    networks:
+      - unit-converter-network
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - BACKEND_URL=http://backend:5000
+      - FLASK_ENV=development
+    depends_on:
+      - backend
+    volumes:
+      - ./frontend:/app
+    networks:
+      - unit-converter-network
+
+networks:
+  unit-converter-network:
+    driver: bridge
