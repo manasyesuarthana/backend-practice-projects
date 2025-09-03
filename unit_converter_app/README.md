@@ -42,7 +42,7 @@ This is a full-stack web application for converting between different units of m
 The project is organized into two main services: `backend` and `frontend`, each with its own Dockerfile. A `docker-compose.yml` file at the root orchestrates the two containers.
 
 ```
-unit-converter_app/
+unit_converter_app/
 ├── backend/
 │   ├── main.py
 │   ├── requirements.txt
