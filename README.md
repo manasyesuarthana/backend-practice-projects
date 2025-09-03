@@ -14,7 +14,7 @@ Here are the projects I have completed so far. Each project is contained within 
 | `github_user_activity/` | A tool that fetches and displays recent activity for a given GitHub user.                                | Python                | [View Project](https://roadmap.sh/projects/github-user-activity)         |
 | `expense_tracker/`      | An python CLI application to track income and expenses, categorize them, and view summaries. All user-inputted data are stored into a CSV file. | Python                | [View Project](https://roadmap.sh/projects/expense-tracker)              |
 | `number_guessing_game/` | A simple CTF-style CLI game where the user has to guess a randomly generated number.                     | Python                | [View Project](https://roadmap.sh/projects/number-guessing-game)         |
-| `unit-converter/`       | A full-stack web app for converting units, featuring a Flask REST API and a web interface.               | Python, Flask, Docker | [View Project](https://roadmap.sh/projects/unit-converter/)                                          |
+| `unit_converter_app/`       | A full-stack web app for converting units, featuring a Flask REST API and a web interface.               | Python, Flask, Docker | [View Project](https://roadmap.sh/projects/unit-converter/)                                          |
 | ...                     | *More to come!* | -                     | -                                                                        |
 
 ## Tech Stack
