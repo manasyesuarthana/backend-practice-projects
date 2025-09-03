@@ -4,6 +4,8 @@ This is a full-stack web application for converting between different units of m
 
 ---
 
+**NOTE**: I mainly worked on backend logic for the flask REST API as well as Docker containerization. The Frontend is mainly vibecoded :P
+
 ## Features
 
 - **Three Conversion Categories**:
@@ -40,7 +42,7 @@ This is a full-stack web application for converting between different units of m
 The project is organized into two main services: `backend` and `frontend`, each with its own Dockerfile. A `docker-compose.yml` file at the root orchestrates the two containers.
 
 ```
-unit-converter/
+unit-converter_app/
 ├── backend/
 │   ├── main.py
 │   ├── requirements.txt
