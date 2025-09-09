@@ -8,14 +8,15 @@ Most of the project ideas are sourced from the excellent [Backend Developer road
 
 Here are the projects I have completed so far. Each project is contained within its own directory.
 
-| Project Name            | Description                                                                                              | Tech Stack            | Project Requirement                                                      |
-| :---------------------- | :------------------------------------------------------------------------------------------------------- | :-------------------- | :-----------------------------------------------------------------------: |
-| `task_tracker/`         | A command-line application to manage tasks (create, update, delete, list) and store them into a JSON file. | Python                | [View Project](./task_tracker/)                 |
-| `github_user_activity/` | A tool that fetches and displays recent activity for a given GitHub user.                                | Python                | [View Project](./github_user_activity/)         |
-| `expense_tracker/`      | An python CLI application to track income and expenses, categorize them, and view summaries. All user-inputted data are stored into a CSV file. | Python                | [View Project](./expense_tracker/)              |
-| `number_guessing_game/` | A simple CTF-style CLI game where the user has to guess a randomly generated number.                     | Python                | [View Project](./number_guessing_game/)         |
-| `unit_converter_app/`       | A full-stack web app for converting units, featuring a Flask REST API and a web interface.               | Python, Flask, Docker | [View Project](./unit_converter_app/)                                          |
-| ...                     | *More to come!* | -                     | -                                                                        |
+| Project Name            | Description                                                                                              | Tech Stack            | Project Link                                       | Project Requirement                                    |
+| :---------------------- | :------------------------------------------------------------------------------------------------------- | :-------------------- | :---------------------------------------------- | :---------------------------------------------- |
+| `task_tracker/`         | A command-line application to manage tasks (create, update, delete, list) and store them into a JSON file. | Python                | [View Project](./task_tracker/)                 | [View Requirement](https://roadmap.sh/projects/task-tracker)                 |
+| `github_user_activity/` | A tool that fetches and displays recent activity for a given GitHub user.                                | Python                | [View Project](./github_user_activity/)         | [View Requirement](https://roadmap.sh/projects/github-user-activity)         |
+| `expense_tracker/`      | An python CLI application to track income and expenses, categorize them, and view summaries. All user-inputted data are stored into a CSV file. | Python                | [View Project](./expense_tracker/)              | [View Requirement](https://roadmap.sh/projects/expense-tracker)              |
+| `number_guessing_game/` | A simple CTF-style CLI game where the user has to guess a randomly generated number.                     | Python                | [View Project](./number_guessing_game/)         | [View Requirement](https://roadmap.sh/projects/number-guessing-game)         |
+| `unit_converter_app/`   | A full-stack web app for converting units, featuring a Flask REST API and a web interface.               | Python, Flask, Docker | [View Project](./unit_converter_app/)           | [View Requirement](https://roadmap.sh/projects/unit-converter)           |
+| ...                     | *More to come!* | -                     | -                                               | -                                               |
+
 
 ## Tech Stack
 
