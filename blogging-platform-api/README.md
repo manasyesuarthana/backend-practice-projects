@@ -117,12 +117,40 @@ All endpoints are prefixed with `/api`.
 | `PUT`    | `/blog/:id`  | Updates an existing blog post.    | Admin Only  |
 | `DELETE` | `/blog/:id`  | Deletes a blog post.              | Admin Only  |
 
+**GET `/blog`**
+- This endpoint returns an array of all blog posts.
+- You can optionally add a `term` query parameter to filter posts where the `tags` field contains the search term (case-insensitive).
+
+- **Example (Get all posts):**
+
+```sh
+curl "http://localhost:3000/api/blog"
+```
+- **Example (Filter posts with the tag "tech"):**
+
+```sh
+curl "http://localhost:3000/api/blog?term=tech"
+```
+
 **POST `/blog`** (Requires Bearer Token)
 - **Request Body:**
 ```json
 {
     "title": "My New Blog Post",
-    "content": "This is the content of the post."
+    "content": "This is the content of the post.",
+    "tags": "tech, javascript"
+}
+```
+- **Success Response (201 Created):**
+```json
+{
+    "_id": "64c9c1b1c6d3e3a4b9f2d1e1",
+    "title": "My New Blog Post",
+    "content": "This is the content of the post.",
+    "tags": "tech, javascript",
+    "author": "64c9c1a0c6d3e3a4b9f2d1de",
+    "createdAt": "2023-08-02T05:39:29.282Z",
+    "updatedAt": "2023-08-02T05:39:29.282Z"
 }
 ```
 
