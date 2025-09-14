@@ -6,7 +6,7 @@ export const getAllBlogs = async (req, res) => {
         query = {};
 
         if(term){
-            query.tags = {$regex:term, $options: 'i'};
+            query.tags = { $regex:term, $options: 'i' };
         }
 
         const blogs = await Blog.find(query)
