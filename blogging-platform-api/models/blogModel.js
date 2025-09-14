@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+import mongoose, { trusted } from "mongoose";
 
 const blogSchema = new mongoose.Schema({
     title: {
@@ -7,6 +7,10 @@ const blogSchema = new mongoose.Schema({
     },
     content: {
         type: String,
+        required: true
+    },
+    tags:{
+        type: [String],
         required: true
     },
     author: {

@@ -2,7 +2,14 @@ import Blog from "../models/blogModel.js";
 
 export const getAllBlogs = async (req, res) => {
     try{
-        const blogs = await Blog.find({})
+        const { term } = req.query;
+        query = {};
+
+        if(term){
+            query.tags = {$regex:term, $options: 'i'};
+        }
+
+        const blogs = await Blog.find(query)
         .populate('author', 'username')
         .sort({createdAt: -1});
     
@@ -32,15 +39,16 @@ export const getSpecificBlog = async (req, res) => {
 
 export const postBlog = async (req, res) => {
     try{
-        const {title, content} = req.body;
+        const {title, content, tags} = req.body;
 
-        if(!title || !content){
-            return res.status(400).json({error: 'Both title and content must be filled.'});
+        if(!title || !content || !tags){
+            return res.status(400).json({error: 'Both title, content, and tags must be filled.'});
         }
 
         const newBlog = new Blog({
             title,
-            content, 
+            content,
+            tags, 
             author: req.user._id
         });
 
