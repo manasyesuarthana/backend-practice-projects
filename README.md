@@ -16,6 +16,7 @@ Here are the projects I have completed so far. Each project is contained within 
 | `number_guessing_game/` | A simple CTF-style CLI game where the user has to guess a randomly generated number.                     | Python                            | [View Project](./number_guessing_game/)         | [View Requirement](https://roadmap.sh/projects/number-guessing-game)         |
 | `unit_converter_app/`   | A full-stack web app for converting units, featuring a Flask REST API and a web interface.               | Python, Flask, Docker             | [View Project](./unit_converter_app/)           | [View Requirement](https://roadmap.sh/projects/unit-converter)           |
 | `blogging_platform_api/`     | A RESTful API for a blog with JWT authentication, role-based access, and full CRUD functionality.        | Node.js, Express, MongoDB         | [View Project](./blogging_platform_api/)             | [View Requirement](https://roadmap.sh/projects/blogging-platform-api)              |
+| `todo_list_api/`        | A RESTful API for a to-do list featuring JWT authentication and user-specific CRUD operations for tasks. | Node.js, Express, MongoDB         | [View Project](./todo_list_api/)                | [View Requirement](https://roadmap.sh/projects/todo-list-api)                |
 | ...                     | *More to come!* | -                                 | -                                               | -                                               |
 
 
